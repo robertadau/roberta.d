@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'cardo';
+    src: url(../fonts/cardo/cardo-italic.woff) format('woff');
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'cardo';
+    src: url(../fonts/cardo/cardo-bold.woff) format('woff');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'Special Elite', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+  }
+
+  p {
+    text-align: justify;
+    font-size: 16px;
+ }
+
+ h1, h2, h3, h4, h5 {
+    font-family: special Elite, cursive;
+    font-style: normal;
+ }
+
+ body {
+max-width: 1024px;
+margin: auto;
+line-height: 1.5em;
+font-family: cardo;
+font-style: italic;
+ }
+
+ h1 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 32px;
+}
+
+.kabutes {
+    color: grey;
+    left: 490px;
+    top: 135px;
+    font-size:35px;
+    position: absolute;
+}
+
+.big_letter {
+    line-height: 45px;
+    font-size: 46px;
+    margin: 5px;
+    float: left;
+}
+
+.logo {
+    font-size: 30px;
+    text-align:center
+}
+
+.fa-solid {
+    line-height:5px;
+    margin:0 5px;
+}
+
+.author {
+    float: right;
+    margin: 10px;
+    font-weight:700;
+}
+
+.author1 {
+    float: right;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.wikipedia {
+    text-align: center;
+    margin: 100px;
+    text-transform:uppercase;
+}
+
+.main-quote {
+    margin: 0;
+    padding: 0;
+}
+
+.main-quote blockquote {
+    max-width: 200 px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.main-quote blockquote::before {
+    content: '"';
+    position: absolute;
+    left: -0.5em;
+    font-size: 2rem;
+    top: -0.2em;
+    color: grey;
+  }
+  
+  figcaption {
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-size: 0.7em;
+  }
+  
+  .bigger-text {
+    font-size: 1.5em;
+  }
+
+  .mini-quote {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mini-quote blockquote {
+    margin: 0;
+    padding: 0;
+  }
+
+  blockquote {
+    margin:0%;
+  }
+
+  .icon {
+    font-size: 4em;
+    color: #000;
+    margin: 1em auto;
+    text-align: center;
+  
+    transform: rotate(70deg);
+  }
+
+  .source-link {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 2em;
+    text-align: center;
+  }
